@@ -55,7 +55,14 @@
 - Example \- Grouping a List of Words by First Letter:
 
 ```csharp
-string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
+string[] words = { 
+    "blueberry",
+    "chimpanzee",
+    "abacus",
+    "banana",
+    "apple",
+    "cheese"
+};
 
 var wordGroups = from w in words
                  group w by w[0] into g
